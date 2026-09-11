@@ -1,5 +1,6 @@
 from qustion import qustions
 
+name = input("whats your name? ")
 
 print("welcome")
 
@@ -15,4 +16,11 @@ for item in qustions:
     else:
         print("wrong")
 
-print("your score is:", score)
+print("your score is:", score, "out of", len(qustions))
+
+if score == len(qustions):
+    print("excellent job", name)
+elif score >= 2:
+    print("good job", name)
+else:
+    print("keep praticing", name)
