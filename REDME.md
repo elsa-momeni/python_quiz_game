@@ -1,11 +1,6 @@
 # Python Quiz Game
 A simple quiz game built with python
 ## Table of contents
-
-
-
-
-- [Table of contents](#table-of-contents)
 - [Features](#features)
 - [Project Struture](#project-struture)
 - [Requirements](#requirements)
@@ -13,6 +8,7 @@ A simple quiz game built with python
 - [Envoirment Setup](#envoirment-setup)
 - [Usage](#usage)
 - [Example Output](#example-output)
+- [Screeanshot](#screenshot)
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [Licence](#licence)
@@ -111,6 +107,18 @@ Enter the product name: milk
 
 how many do you want? 3
 total price: 150
+
+## Screenshot
+
+### start game
+![start game](pectures\1.jpg)
+
+### quiz
+![quiz](pectures\2.jpg)
+
+### final score
+![final score](pectures\3.jpg)
+
 ## Roadmap
 - [x] add multiple quiz qustions
 - [x] calculate the final score 
