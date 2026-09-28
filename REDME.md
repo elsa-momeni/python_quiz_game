@@ -1,4 +1,6 @@
 # Python Quiz Game
+![Static Badge](https://img.shields.io/badge/python-3%20.12-blue)
+
 A simple quiz game built with python
 ## Table of contents
 - [Features](#features)
@@ -33,20 +35,36 @@ A simple quiz game built with python
 
 ```txt
 python_quiz_game/
-|   main.py
-|   qustion.py
-|   requirements.txt
-|   .env.example
-|   .gitignore
-|   REDME.md
+│   .env.example
+│   .gitignore
+│   main.py
+│   qustion.py
+│   REDME.md
+│   requirments.txt
+│
+├───gifs
+│       dome.gif
+│
+├───pectures
+│       1.jpg
+│       2.jpg
+│       3.jpg
+└───
 ```
 ### File Description
-- `main.py` - main file used to run quiz game
-- `qustion.py` - stores questions and answers
-- `requirements.txt` - lists the python packages neeeded for the project
-- `.env.exmple` - shows the envoirment variables needed by the project
-- `.gitignore` - tells git which files and folders shold not be tracked
-- `README.md` - contains the project documentation
+| file | description |
+| --- |---|
+| `main.py` | main file used to run quiz game
+| `qustion.py` | stores questions and answers
+| `requirements.txt` | lists the python packages neeeded for the project|
+| `.env.exmple` | shows the envoirment variables needed by the project|
+| `.gitignore` | tells git which files and folders shold not be tracked|
+| `pectures/` | stores project screenshot|
+| `pectures/1.jpg` | screentshot of the game start|
+| `pectures/2.jpg` | screentshot of the quiz section|
+| `pectures/3.jpg` | screentshot of the final result|
+| `gifs/` | stores demo GIF files|
+| `gifs/demo.gif` | shows the project demo|
 
 ## Requirements
 Before running the project, make sure you have:
@@ -118,6 +136,9 @@ total price: 150
 
 ### final score
 ![final score](pectures\3.jpg)
+
+## Demo
+![quiz_game_demo](gifs\dome.gif)
 
 ## Roadmap
 - [x] add multiple quiz qustions
