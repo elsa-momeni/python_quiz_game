@@ -22,5 +22,5 @@ qustions = [
     {
         "print": "what command shows git branch? ",
         "awnser": "git branch"  
-    },
+    }
 ]
