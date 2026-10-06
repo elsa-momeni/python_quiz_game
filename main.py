@@ -44,4 +44,4 @@ elif score >= 2:
 else:
     print("keep praticing", name)
 with open("results.txt", "a") as file:
-    file.write(f"{name} - {score}/{len(qustions)}\n")
+    file.write(f"{name} - {score}/{len(qustions)}\n") #3/4
