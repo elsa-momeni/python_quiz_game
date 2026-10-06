@@ -18,5 +18,9 @@ qustions = [
     {
         "print": "what command send commits to github? ",
         "awnser": "git push"  
-    }
+    },
+    {
+        "print": "what command shows git branch? ",
+        "awnser": "git branch"  
+    },
 ]
